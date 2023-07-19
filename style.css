@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f6f5f5;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: #6a759b;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.projects {
+    color: #7aa5d2;
+    text-decoration: none;
+
+}
+
+.contact {
+    color: #3bb4c1;
+    text-decoration: dashed;
+}
+
+.navigation a {
+    color: #6a759b;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100PX;
+    display: flex;
+    align-items: center;
+
+    background: url(img/css-brushed-glass-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.main h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500PX;
+    ;
+}
+
+.main h2 span {
+    color: #00adb5;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.main h3 {
+    color: #f6f5f5;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #f6f5f5;
+    background-color: #3b50b2;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    margin-bottom: 40px;
+
+}
+
+.social-icons a {
+    color: aliceblue;
+    font-size: 24px;
+    padding-right: 15px;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3b50b2;
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    display: wrap;
+
+}
+
+.card {
+    background-color: aliceblue;
+    width: 360px;
+    box-shadow: 0 5px 25px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+
+}
+
+.icon {
+    color: #048998;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #048998;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects {
+    background-color: whitesmoke;
+}
+
+.projects-card {
+    background-color: aliceblue;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+
+
+.project-image img {
+    width: 100%;
+}
+
+
+
+.title-p {
+    display: flex;
+    justify-content: center;
+    color: #3b50b2;
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.projects-title span {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+
+.projects-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.contact .info h3 {
+    color: black;
+}
+
+@media only screen and (max-width: 920px) {
+    #contact {
+        flex-direction: column-reverse;
+    }
