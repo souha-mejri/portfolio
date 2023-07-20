@@ -195,7 +195,22 @@ section {
     color: black;
 }
 
-@media only screen and (max-width: 920px) {
-    #contact {
+@media only screen and (max-width:920PX) {
+
+    header {
+        padding: 12px 20px;
+    }
+
+    .content {
         flex-direction: column-reverse;
     }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main-content {
+        font-size: 1em;
+    }
+
+}
