@@ -211,6 +211,11 @@ section {
 
     .main-content {
         font-size: 1em;
+
+
     }
 
+    .main {
+        flex-direction: column-reverse;
+    }
 }
