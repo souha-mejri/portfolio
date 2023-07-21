@@ -19,6 +19,11 @@ header {
 
 }
 
+img {
+    max-width: 400px;
+
+    border-radius: 30px;
+}
 .logo {
     text-decoration: none;
     color: #6a759b;
@@ -54,7 +59,9 @@ section {
     min-height: 100PX;
     display: flex;
     align-items: center;
-
+align-content: center;
+    justify-content: center;
+    gap: 30px;
     background: url(img/css-brushed-glass-background.jpg);
     background-size: cover;
     background-position: center;
@@ -64,15 +71,16 @@ section {
 
 .main h2 {
     color: white;
-    font-size: 18px;
-    font-weight: 500PX;
-    ;
+    
+
+    font-size: 30px;
+    font-weight: 600px;
 }
 
 .main h2 span {
     color: #00adb5;
-    font-size: 30px;
-    font-weight: 600px;
+    font-size: 18px;
+    font-weight: 500PX;
 }
 
 .main h3 {
@@ -82,6 +90,7 @@ section {
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
 
 .main-btn {
     color: #f6f5f5;
