@@ -24,6 +24,7 @@ img {
 
     border-radius: 30px;
 }
+
 .logo {
     text-decoration: none;
     color: #6a759b;
@@ -59,19 +60,18 @@ section {
     min-height: 100PX;
     display: flex;
     align-items: center;
-align-content: center;
+    align-content: center;
     justify-content: center;
     gap: 30px;
     background: url(img/css-brushed-glass-background.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 
 }
 
 .main h2 {
     color: white;
-    
+
 
     font-size: 30px;
     font-weight: 600px;
@@ -90,7 +90,6 @@ align-content: center;
     margin-top: 10px;
     margin-bottom: 30px;
 }
-
 
 .main-btn {
     color: #f6f5f5;
@@ -203,6 +202,9 @@ align-content: center;
 .contact .info h3 {
     color: black;
 }
+
+
+
 
 @media only screen and (max-width:920PX) {
 
